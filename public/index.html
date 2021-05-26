@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God-Bless</title>
+
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">God-Bless</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/public/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assessment.html">Assessment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="consult.html">Consult</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" id="Header">
+        <div class="container">
+            <h2>#maskOnIndia</h2>
+            <h4>Pandemic is still on.</h4>
+            <p id="typeit"></p>
+        </div>
+    </div>
+</body>
+
+<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- script not working :(-->
+<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js">
+    new TypeIt("#typeit", {
+        speed: 50,
+        waitUntilVisible: true
+    }).type("Stay hoem !", { delay: 300 })
+        .move(-3).delete(1).type('m')
+        .move(1).delete(1).type('e').move('END')
+        .delete(7).pause(500).type(' safe!')
+        .move(-1).type(' ').pause(500)
+        .move(-2).delete(4).type('alert !')
+        .go();
+</script>
+
+</html>

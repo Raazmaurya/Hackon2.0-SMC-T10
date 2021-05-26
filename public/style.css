@@ -1,0 +1,17 @@
+nav.bg-dark{
+    background-color: #ee6e73 !important;
+}
+
+div.container-fluid#Header{
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/dotcom-prod/images/c_fill,f_auto,g_faces:center,q_auto,w_1920/v1/wt-cms-assets/2020/04/q11sfwoxen31pefpklk0/threefacesallwithmasks.jpg');
+}
+
+div.container-fluid#Header > div.container{
+    position: absolute;
+    top:24vh;
+}
+
+div.container-fluid#Header > div.container > h2{
+    color:rgb(235, 19, 91);
+}
